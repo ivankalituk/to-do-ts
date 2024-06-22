@@ -1,0 +1,50 @@
+li{
+    width: 100%;
+    list-style: none;
+    margin: none;
+    padding: 1rem 0;
+    
+    border-top: 3px solid white;
+
+
+    > a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        // align-items: center;
+        gap: 1rem;
+
+        > img{
+            height: 6.25rem;
+            width: 6.25rem;
+        }
+
+        > .taskList_info{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow: hidden;
+
+            > .taskList_info_heading{
+                font-weight: 700;
+                font-size: 2rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100%;
+            }
+
+            > .taskList_info_additional{
+                font-weight: 400;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100%;
+            }
+
+            > .taskList_info_type{
+               margin-top: auto;
+            }
+        }
+    }
+}

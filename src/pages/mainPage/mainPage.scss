@@ -1,0 +1,23 @@
+.mainPage{
+
+    max-width: 90rem;
+    margin: 1rem auto;
+
+    > .mainPage_additionalInfo{
+
+    }
+
+    > .mainPage_previousLists{
+        margin: 1rem 0;
+
+        h3{
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        ul{
+            margin-top: 1rem;
+            list-style: none;
+        }
+    }
+}
