@@ -26,12 +26,11 @@ function MainPage(){
 
         {
             name: "Еда",
-            type: "Fetched",
+            type: "Local",
             additional: "Список для еды"
         },
 
     ]
-
 
     return(
         <div className="mainPage">
@@ -44,8 +43,8 @@ function MainPage(){
                 <h3>Previous task lists</h3>
 
                 <ul>
-                    {tasks.map((data) => (
-                        <TaskListMP />
+                    {tasks.map((data, index) => (
+                        <TaskListMP name ={data.name} aditional={data.additional} type={data.type} id = {index} />
                     ))}
                 </ul>
 
