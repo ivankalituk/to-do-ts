@@ -1,0 +1,12 @@
+@import '@/assets/styles/veriables';
+
+.App{
+
+  background-color: white;
+  color: $dark-blue;
+  font-family: Montserrat;
+}
+
+main{
+  min-height: 100vh;
+}

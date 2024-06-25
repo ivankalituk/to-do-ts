@@ -1,0 +1,27 @@
+@import '@/assets/styles/veriables';
+
+header{
+    border-bottom: $ultralight-gray 1px solid;
+    
+    > .header_container{
+        max-width: 1440px;
+        margin: 0 auto;
+        
+        > .header_inner{
+            padding: 0 116px;
+            display: flex;
+            align-items: center;
+            height: 64px;
+            box-sizing: border-box;
+
+            > h1{
+                font-size: 1.4rem;
+                font-weight: 900;
+                width: 100px;
+                line-height: 1.4rem;
+            }
+        }
+    }
+}
+
+// АДАПТИВ

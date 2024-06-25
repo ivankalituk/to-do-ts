@@ -1,0 +1,28 @@
+.mainPage{
+    max-width: 90rem;
+    margin: 0 auto;
+
+    > .mainPage_container{
+        padding: 0 7.25rem;
+        box-sizing: border-box;
+
+        > .mainPage_heading{
+            margin-top: 1rem;
+            
+            > .mainPage_heading_text{
+                font-size: 2rem;
+                font-weight: 900;   
+            }
+
+            > .mainPage_heading_additional{
+                font-weight: 400;
+                font-size: 1rem;
+            }
+            
+        }
+
+        > .mainPage_taskList{
+            margin-top: 2rem;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.secondaryTask{
+    display: flex;
+    min-height: 2rem;
+    align-items: center;
+
+    > input{
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+
+    > .secondaryTask_Text{
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+
+}

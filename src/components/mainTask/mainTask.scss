@@ -1,0 +1,48 @@
+@import '@/assets/styles/veriables';
+
+.mainTask{
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    border-radius: 1rem;
+
+    > .mainTask_heading{
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        background-color: $ultralight-gray;
+        border-radius: 2rem;
+
+        > .mainTask_heading_checkbox{
+            position: absolute;
+            width: 4rem;
+            height: 4rem;
+            background-color: red;
+            border-radius: 50%;
+            border: 5px solid white;
+            overflow: hidden;
+
+            > input{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: -3px;
+                left: -4px;
+                overflow: hidden;
+                border-radius: 50%;
+            }
+        }
+
+        > .mainTask_heading_text{
+            margin: 0 20px 0 80px;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+    > .mainTask_secondatyTasks{
+        margin-left: 78px;
+    }
+}
