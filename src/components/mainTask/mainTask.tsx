@@ -22,6 +22,8 @@ const MainTask: FC = () =>{
                 <SecondaryTask />
                 <SecondaryTask />
                 <SecondaryTask />
+
+                <button className="mainTask_secondatyTasks_addTask">Add Secondary Task</button>
             </div>
 
 

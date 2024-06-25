@@ -16,7 +16,9 @@ const MainPage: FC = () => {
                 </div>
 
                 <div className="mainPage_taskList">
-                    <MainTask />    
+                    <MainTask />
+
+                    <button className="mainPage_taskList_addTask">Add Main task</button>
                 </div>                
 
             </div>

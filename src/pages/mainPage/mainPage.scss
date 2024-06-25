@@ -1,3 +1,5 @@
+@import '@/assets/styles/veriables';
+
 .mainPage{
     max-width: 90rem;
     margin: 0 auto;
@@ -23,6 +25,28 @@
 
         > .mainPage_taskList{
             margin-top: 2rem;
+
+            > .mainPage_taskList_addTask{
+                border: $accend-blue 4px solid;
+                outline: none;
+                background-color: white;
+                font-family: Montserrat;
+                font-size: 1rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: $accend-blue;
+                height: 3.5rem;
+                width: 100%;
+                border-radius: 1rem;
+                transition: $animation-speed;
+                cursor: pointer;
+
+                &:active{
+                    color: $dark-blue;
+                    border: $dark-blue 4px solid;
+                    transition: $animation-speed;
+                }
+            }
         }
     }
 }
